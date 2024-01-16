@@ -23,6 +23,9 @@ module.exports = {
       url: 'https://ethereum-sepolia.publicnode.com',
       accounts: [process.env.PRIVATE_KEY],
     },
-
+    goerli: {
+      url: 'https://ethereum-goerli.publicnode.com',
+      accounts: [process.env.PRIVATE_KEY],
+    }
   }
 };

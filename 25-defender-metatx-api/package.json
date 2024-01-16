@@ -9,7 +9,7 @@
     "local:sign": "hardhat run scripts/sign.js --network local",
     "create-relayer": "node scripts/createRelayer.js",
     "deploy": "node scripts/deploy.js",
-    "sign": "hardhat run scripts/sign.js --network sepolia",
+    "sign": "hardhat run scripts/sign.js --network goerli",
     "events": "hardhat run scripts/events.js --network sepolia",
     "verify": "hardhat run scripts/verify.js --network sepolia",
     "build": "rollup -c",

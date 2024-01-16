@@ -10,7 +10,7 @@ async function main() {
   // Create Relayer using Defender SDK client.
   const requestParams = {
     name: 'MetaTxRelayer',
-    network: 'sepolia',
+    network: 'goerli',
     minBalance: BigInt(1e17).toString(),
   };
 
